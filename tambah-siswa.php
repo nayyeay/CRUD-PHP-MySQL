@@ -31,7 +31,7 @@
 
                 <div class="form-group">
                   <label>Alamat</label>
-                  <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Siswa” rows="4"></textarea>
+                  <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Siswa "4"></textarea>
                 </div>
                 
                 <button type="submit" class="btn btn-success">SIMPAN</button>
