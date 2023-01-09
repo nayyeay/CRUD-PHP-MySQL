@@ -7,7 +7,7 @@
     <title>Tambah Siswa</title>
   </head>
 
-  <body style="background-color:slategray">
+  <body>
 
     <div class="container" style="margin-top: 80px">
       <div class="row">
@@ -31,10 +31,9 @@
 
                 <div class="form-group">
                   <label>Alamat</label>
-                  <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Siswa "4"></textarea>
+                  <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Siswa” rows="4"></textarea>
                 </div>
                 
-
                 <button type="submit" class="btn btn-success">SIMPAN</button>
                 <button type="reset" class="btn btn-warning">RESET</button>
 
