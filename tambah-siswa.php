@@ -7,7 +7,7 @@
     <title>Tambah Siswa</title>
   </head>
 
-  <body style="background-color:dimgrey">
+  <body style="background-color:slategray">
 
     <div class="container" style="margin-top: 80px">
       <div class="row">
