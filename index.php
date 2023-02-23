@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
     <title>Data Siswa</title>
-
   </head>
-  <body style="background-color:darkslategrey">
+
+  <body>
+
     <div class="container" style="margin-top: 80px">
       <div class="row">
         <div class="col-md-12">
@@ -29,7 +30,6 @@
                   </tr>
                 </thead>
                 <tbody>
-
                   <?php 
                       include('koneksi.php');
                       $no = 1;
@@ -42,7 +42,6 @@
                       <td><?php echo $row['nisn'] ?></td>
                       <td><?php echo $row['nama_lengkap'] ?></td>
                       <td><?php echo $row['alamat'] ?></td>
-                      
                       <td class="text-center">
                         <a href="edit-siswa.php?id=<?php echo $row['id_siswa'] ?>" class="btn btn-sm btn-primary">EDIT</a>
                         <a href="hapus-siswa.php?id=<?php echo $row['id_siswa'] ?>" class="btn btn-sm btn-danger">HAPUS</a>
@@ -64,8 +63,6 @@
       $(document).ready( function () {
           $('#myTable').DataTable();
       } );
-
-      
     </script>
   </body>
 </html>

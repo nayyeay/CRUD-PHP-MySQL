@@ -1,3 +1,17 @@
+<?php 
+  
+  include('koneksi.php');
+  
+  $id = $_GET['id'];
+  
+  $query = "SELECT * FROM table_siswa WHERE id_siswa = $id LIMIT 1";
+
+  $result = mysqli_query($connection, $query);
+
+  $row = mysqli_fetch_array($result);
+
+  ?>
+
 <!doctype html>
 <html lang="en">
   <head>
